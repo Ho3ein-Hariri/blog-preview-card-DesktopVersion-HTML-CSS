@@ -1,0 +1,78 @@
+body{
+    font-family: Figtree;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1366px;
+    height: 633px;
+}
+.blog-card{
+    margin: 0;
+    padding: 15px 15px;
+    width: 221px;
+    height: 313px;
+    border-radius: 13px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-shadow: 5px 5px 0px hsl(0, 0%, 7%);
+    border: solid hsl(0, 0%, 7%) 1px;
+}
+.image-blog{
+    width: 221px;
+    border-radius: 7px;
+}
+.type{
+    margin-top: 12px;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    width: 54px;
+    height: 19px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.type, .date, .profile p{
+    font-size: 9.3px;
+}
+.date{
+    font-weight: 500;
+}
+.title{
+    margin-top: 3px;
+    margin-bottom: 1px;
+    font-weight: 800;
+    transition: 0.2s;
+}
+.title:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.paragraph{
+    font-size: 10.5px;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+    height: 63px;
+    line-height: 16px;
+    width: 220px;
+    margin-bottom: 0;
+}
+.profile{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.profile img{
+    margin-right: 8px;
+    width: 21px;
+}
+.profile p{
+    font-weight: 800;
+}
